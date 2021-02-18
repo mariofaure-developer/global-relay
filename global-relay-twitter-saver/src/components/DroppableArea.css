@@ -1,0 +1,36 @@
+.ProfileImage {
+    border-radius: 7px;
+}
+
+.TweetContainer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.TweetBlock {
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    margin-left: 10px;
+}
+
+.TweetDate {
+    float: right;
+    font-size:11px;
+    margin-top:4px
+}
+
+.TweetUser {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.TweetHandle {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.TweetText {
+    font-size: 13px;
+}

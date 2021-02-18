@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.TweetSaver {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.TweetSaverHeader {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom-color: black;
+  width: 755px
+}
+
+.TwitterSearchContainer {
+  display: inline-block;
+  text-align: left;
+}
+
+.TwitterSearchBlock {
+  margin-bottom: 20px;
+}
+
+.TwitterSearchInputContainer {
+  width: 300px;
+  display: inline-block;
+}
+
+.TwitterSearchButtonContainer {
+  display: inline-block;
+  top: 9px;
+  left: 5px;
+  position: relative;
+}
+
+.SavedTweetContainer {
+  display: inline-block;
+  text-align: left;
+  margin-left: 50px;
+  vertical-align: top;
+}
+
+.SavedTweetHeader {
+  margin-bottom:31px;
+  line-height: 40px;
+  position: relative;
+  top: 10px;
+  font-style: italic;
+}
